@@ -1,0 +1,14 @@
+net: "/home_1/code/caffe_test/compress/weights_pruning/20190529/model_scale_test/train_res18.prototxt"
+test_iter: 200
+test_interval: 1000
+base_lr: 0.0001
+momentum: 0.9
+weight_decay: 0.004
+lr_policy: "step"
+gamma: 0.5
+stepsize: 4000
+display: 500
+max_iter: 6000
+snapshot: 1000
+snapshot_prefix: "/home_1/code/caffe_test/compress/weights_pruning/20190603/model_whole2/test_pruning"
+solver_mode: GPU
